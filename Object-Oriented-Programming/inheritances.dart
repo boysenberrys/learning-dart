@@ -17,9 +17,15 @@ class Vehicle{
   int speed = 10;
   bool isEngineWorking = true;
 
+  //method
   int accelerate(){
     return speed+=10;
   }
+
+  String cruch(){
+    return "Break is working";
+  }
+  
 }
 //inheritance happen when one class extend parent class; just like when a child inherit father face, walking style and sound, but some properties can be unique from father, like he can be short, lighskenned and bald. So those new properties exist in child but not in parent.
 class Car extends Vehicle{
