@@ -67,3 +67,14 @@ class Student <T>{
   @override
   String toString()=> "Student: $name";
 }
+
+//OTHERS LIST METHODS:
+              // students.length - return the length of list
+              //students.reversed.toList()- return list in reverse
+              //students.first - provide a first element
+              //student.isEmpty - return bool if list is empty.
+              //students.addAll()- add all iterables in the list.
+              //.contains: check specific element if present
+              //.indexOf ; TO CHECK THE INDEX OF CERTAIN ELEMENT
+              //.firstWhere
+              //.lastWhere
