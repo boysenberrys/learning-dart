@@ -46,7 +46,7 @@ void main(){
 
 
   var nemla = "null";
-  print(nemla!.length);
+  print(nemla.length);
   //in this expression, nemla is assigned to "NULL";the exlamation mark is forcing dominant that this value should be NULL. so there is no need of using the exlamation mark at all because the value is not null.
 
   //TIP: 
