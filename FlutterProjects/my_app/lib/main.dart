@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/data/notifier.dart';
-import 'package:my_app/views/widget_tree.dart';
+import 'package:my_app/views/pages/welcome_page.dart';
 
 void main(){
   runApp(const MyApp());
@@ -15,6 +15,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+
+  
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder(
@@ -27,9 +29,9 @@ class _MyAppState extends State<MyApp> {
           brightness: isDarkmode?Brightness.dark: Brightness.light,
           )
         ),
-       home: WidgetTree()
+       home: WelcomePage()
     );
-      },
+    },
     );
   }
 }
