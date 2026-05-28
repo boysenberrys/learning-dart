@@ -1,4 +1,4 @@
-import 'package:pre_fluter/pre_fluter.dart';
+import 'package:learning_dart/learning_dart.dart';
 import 'package:test/test.dart';
 
 void main() {
