@@ -84,7 +84,9 @@ void main(List<String> args) {
   /*int getFirst(List<int> Items) => items.first;*/
 
   //With generics - works for any type
+  print("+++++++Working with generics++++++++");
   T getFirst<T>(List<T> items) => items.first;
 
   getFirst<String>(["a", "b", "c"]);
+  getFirst<int>([1, 2, 3, 4]);
 }
