@@ -79,4 +79,12 @@ void main(List<String> args) {
 
   //! GENERICS
   //You have been using generics already -List<String>, Map<String, int>. All of these are Generics. Now let's understand, what they actually. Generics lets you write cide that works with any type while being type-safe.
+
+  //Without generics - only work for integers
+  /*int getFirst(List<int> Items) => items.first;*/
+
+  //With generics - works for any type
+  T getFirst<T>(List<T> items) => items.first;
+
+  getFirst<String>(["a", "b", "c"]);
 }
